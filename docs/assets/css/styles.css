@@ -6,6 +6,29 @@ body {
     margin:auto;    
 }
 
+.three-column-list {
+    column-count: 3;
+    column-gap: 2em;
+}
+
+.youtube-embed-responsive-16-9 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin:auto;  
+    aspect-ratio: 16 / 9;
+
+  }
+
+  .youtube-embed-responsive-9-16 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin:auto;  
+    aspect-ratio: 9 / 16;
+
+  }
+
 
 /* GSP added new class  to make images responsive */
 .responsive {
