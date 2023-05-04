@@ -11,6 +11,13 @@ body {
     column-gap: 2em;
 }
 
+.alphabet-button {
+  background-color: rgb(122, 48, 68);
+  color: white;
+  padding: 1px 1px;
+  border-radius: 5px;
+}
+
 .youtube-embed-responsive-16-9 {
     width: 100%;
     max-width: 400px;
@@ -90,7 +97,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-    color: #f2101f;
+    color: #d3bec0;
     
 }
 
@@ -106,7 +113,7 @@ header.masthead {
 }
 
 header.masthead h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     line-height: 3rem;
 }
 
@@ -117,7 +124,7 @@ header.masthead h2 {
 @media (min-width: 992px) {
     header.masthead {
         /* padding-top: calc(2rem + 106px); */
-        padding-bottom: 6rem;
+        padding-bottom: 1rem;
     }
     header.masthead h1 {
         font-size: 4.75em;
@@ -130,7 +137,7 @@ header.masthead h2 {
 
 .brand-statement,
 .about-me {
-    margin-top: 50px;
+    margin-top: 15px;
     font-size: 1.2em;
     font-weight: 100;
     line-height: 1.5;
@@ -237,8 +244,8 @@ header.masthead h2 {
 }
 
 .footer {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: #1a252f;
     color: #fff;
 }
